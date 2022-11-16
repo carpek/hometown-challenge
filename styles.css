@@ -1,15 +1,27 @@
 h1 {
-    color: #C4323C;
+    color: #f95959; 
 }
 
+a {
+   color: #f95959;  
+   text-decoration: none;
+}
+
+a:hover {
+    color: #e3e3e3; 
+    text-decoration: underline;
+}
+
+
+
 .button {
-    background-color: #C4323C;
+    background-color: #f95959; 
     border: none;
 }
 
 .button:hover {
-    background-color: #e3e3e3;;
-    color: #C4323C;
+    background-color: #e3e3e3;
+    color: #f95959; 
 }
 
 img {
@@ -23,4 +35,16 @@ footer {
 	background: #455d7a; 
     padding: 50px;
     margin-bottom: 0;
+}
+
+.fotocredit {
+    margin: 20px;
+    color: #e3e3e3;
+    text-align: center;
+    font-size: 8px;
+  
+ 
+}
+.fotocredit li {
+    list-style: none;
 }
